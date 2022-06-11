@@ -1,7 +1,8 @@
 # Entertainment-web-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Online deployment link : [](https://arian4.github.io/react-entertainment-web-app/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+
+Online deployment link : [Entertainment web app](https://arian4.github.io/react-entertainment-web-app/)
 
 multi-page entertainment web app will have you working with JSON data, routing, state management, and search functionality.
 

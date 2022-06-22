@@ -1,12 +1,13 @@
 import React from 'react'
 import BookMark from './BookMark'
+import { motion } from 'framer-motion';
 
 
 
 export default function MovieCard({movie}) {
     
   return (
-    <div className='relative group cursor-pointer'>
+    <motion.div initial={{opacity : 0 , scale: 0 , y:'50%'}} animate={{opacity: 1 , scale: 1 , y:0}} exit={{ opacity: 0 , y:'50%' }} layout transition={{duration : 0.8 , delay: 0.2}} className='relative group cursor-pointer'>
         
         <div className='relative'>
             <img className='w-full rounded-xl' src={movie.thumbnail.regular.large} alt={movie.title}/>
@@ -34,7 +35,7 @@ export default function MovieCard({movie}) {
         </div>
         <p className=" text-white font-medium">{movie.title}</p>
 
-    </div>
+    </motion.div>
   )
 }
 
